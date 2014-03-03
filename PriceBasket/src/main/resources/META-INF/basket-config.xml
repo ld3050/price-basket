@@ -1,0 +1,25 @@
+<beans:beans xmlns="http://www.bjss.com/schema/price-basket"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:beans="http://www.springframework.org/schema/beans"
+	xsi:schemaLocation="
+http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+http://www.bjss.com/schema/price-basket http://www.bjss.com/schema/price-basket/price-basket.xsd" 
+	default-autowire="byType">
+	
+	<item id="apple" price="1.00" />
+	
+	<item id="milk" price="1.30" />
+	
+	<item id="soup" price="0.65" />
+	
+	<item id="bread" price="0.80" />
+	
+	<percentageOffer id="applesOffer" itemRef="apple" discount="0.1" expiryDate="2014-03-08" />
+	
+	<percentageOffer id="breadOffer" itemRef="bread" discount="0.5" >
+		<requiredItems>
+			<itemRef ref="soup" quantity="2" />
+		</requiredItems>
+	</percentageOffer>
+	
+</beans:beans>

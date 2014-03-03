@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src/main/java"/>
+	<classpathentry kind="src" path="src/test/resources"/>
+	<classpathentry kind="src" path="src/test/java"/>
+	<classpathentry kind="src" path="src/main/resources"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6"/>
+	<classpathentry kind="lib" path="target/dependency-jars/aopalliance-1.0.jar"/>
+	<classpathentry kind="lib" path="target/dependency-jars/commons-logging-1.1.1.jar"/>
+	<classpathentry kind="lib" path="target/dependency-jars/javax.inject-1.jar"/>
+	<classpathentry kind="lib" path="target/dependency-jars/junit-4.8.2.jar"/>
+	<classpathentry kind="lib" path="target/dependency-jars/log4j-1.2.14.jar"/>
+	<classpathentry kind="lib" path="target/dependency-jars/mockito-all-1.9.5.jar"/>
+	<classpathentry kind="lib" path="target/dependency-jars/spring-aop-3.2.4.RELEASE.jar"/>
+	<classpathentry kind="lib" path="target/dependency-jars/spring-beans-3.2.4.RELEASE.jar"/>
+	<classpathentry kind="lib" path="target/dependency-jars/spring-context-3.2.4.RELEASE.jar"/>
+	<classpathentry kind="lib" path="target/dependency-jars/spring-core-3.2.4.RELEASE.jar"/>
+	<classpathentry kind="lib" path="target/dependency-jars/spring-expression-3.2.4.RELEASE.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite failures="0" time="0.04" errors="0" skipped="0" tests="1" name="com.bjss.pricebasket.parser.ItemDefinitionParserTest">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="c:\JICore\Java\x64\jdk1.6.0_45\jre\bin"/>
+    <property name="java.vm.version" value="20.45-b01"/>
+    <property name="java.vm.vendor" value="Sun Microsystems Inc."/>
+    <property name="java.vendor.url" value="http://java.sun.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="GB"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="c:\JICore\git-clones\price-basket\PriceBasket"/>
+    <property name="java.runtime.version" value="1.6.0_45-b06"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="c:\JICore\Java\x64\jdk1.6.0_45\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\Leon\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Sun Microsystems Inc."/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 8"/>
+    <property name="classworlds.conf" value="c:/JICore/maven/apache-maven-3.2.1/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="c:\JICore\Java\x64\jdk1.6.0_45\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;c:\Users\Leon\bin;.;C:\Program Files (x86)\Git\local\bin;C:\Program Files (x86)\Git\mingw\bin;C:\Program Files (x86)\Git\bin;c:\oraclexe\app\oracle\product\11.2.0\server\bin;c:\JICore\Java\x64\jdk1.6.0_45\bin;c:\Program Files (x86)\Intel\iCLS Client\;c:\Program Files\Intel\iCLS Client\;c:\WINDOWS\system32;c:\WINDOWS;c:\WINDOWS\System32\Wbem;c:\WINDOWS\System32\WindowsPowerShell\v1.0\;c:\Program Files\Intel\Intel(R) Management Engine Components\DAL;c:\Program Files\Intel\Intel(R) Management Engine Components\IPT;c:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;c:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;c:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x86;c:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x64;c:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;c:\Program Files\Condusiv Technologies\IntelliMemory\;c:\Program Files (x86)\Windows Live\Shared;c:\Program Files\Intel\WiFi\bin\;c:\Program Files\Common Files\Intel\WirelessCommon\;c:\JICore\ant\apache-ant-1.9.3\bin;c:\Program Files (x86)\Subversion\bin;c:\JICore\maven\apache-maven-3.2.1\bin;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="50.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="6.2"/>
+    <property name="user.home" value="C:\Users\Leon"/>
+    <property name="user.timezone" value="Europe/London"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.specification.version" value="1.6"/>
+    <property name="user.name" value="Leon"/>
+    <property name="java.class.path" value="c:/JICore/maven/apache-maven-3.2.1/boot/plexus-classworlds-2.5.1.jar"/>
+    <property name="org.slf4j.simpleLogger.defaultLogLevel" value="info"/>
+    <property name="java.vm.specification.version" value="1.0"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="c:\JICore\Java\x64\jdk1.6.0_45\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean package"/>
+    <property name="java.specification.vendor" value="Sun Microsystems Inc."/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.6.0_45"/>
+    <property name="java.ext.dirs" value="c:\JICore\Java\x64\jdk1.6.0_45\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="c:\JICore\Java\x64\jdk1.6.0_45\jre\lib\resources.jar;c:\JICore\Java\x64\jdk1.6.0_45\jre\lib\rt.jar;c:\JICore\Java\x64\jdk1.6.0_45\jre\lib\sunrsasign.jar;c:\JICore\Java\x64\jdk1.6.0_45\jre\lib\jsse.jar;c:\JICore\Java\x64\jdk1.6.0_45\jre\lib\jce.jar;c:\JICore\Java\x64\jdk1.6.0_45\jre\lib\charsets.jar;c:\JICore\Java\x64\jdk1.6.0_45\jre\lib\modules\jdk.boot.jar;c:\JICore\Java\x64\jdk1.6.0_45\jre\classes"/>
+    <property name="java.vendor" value="Sun Microsystems Inc."/>
+    <property name="maven.home" value="c:\JICore\maven\apache-maven-3.2.1"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://java.sun.com/cgi-bin/bugreport.cgi"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase time="0.04" classname="com.bjss.pricebasket.parser.ItemDefinitionParserTest" name="testParseValidItem"/>
+</testsuite>
