@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<percentageOffer id="testOffer" itemRef="testItem1" discount="0.5" expiryDate="2014-03-01">
-  <requiredItems>
-	<itemRef ref="testItem2" quantity="5" />
-	<itemRef ref="testItem3" quantity="1" />
-  </requiredItems>
-</percentageOffer>
