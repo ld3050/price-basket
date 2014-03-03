@@ -71,7 +71,7 @@ The program relies on Spring's parsing capabilities to turn basket-config.xml in
 - BasketPrinterService - for outputting the Basket totals
 - MsgService - for localising messages output to the user
 
-The interfaces on these services are kept simple so that they are easy to be replaced by different implementations if required.
+The interfaces on these services are kept simple so that they can be replaced easily by different implementations if required.
 
 The Offer interface is also designed so that different kinds of offers can be added to the system easily (eg. Fixed price offers, Buy one get one free, etc.).
 
@@ -80,7 +80,7 @@ The Offer interface is also designed so that different kinds of offers can be ad
 Assumptions
 -----------
 
-- Items added as arguments are case-insensitive. ie. Apple and apple will resolve to the same item. This also means that the editor of basket-config.xml must not specify items with the same name and conflicting case.
+- Items added by the user on the command-line are case-insensitive. ie. "Apple" and "apple" will resolve to the same item. This also means that the editor of basket-config.xml must not specify items with the same name and conflicting case.
 
 - Attempts to add invalid Items to the Basket are ignored.
 
